@@ -1,0 +1,7 @@
+grant {
+        // permissions for using GPIO pin 7 GPIOLEDSample
+        permission jdk.dio.gpio.GPIOPinPermission ":7";
+        permission jdk.dio.gpio.GPIOPinPermission "0:7";
+        permission jdk.dio.DeviceMgmtPermission "GPIO7:7", "open";
+};
+
