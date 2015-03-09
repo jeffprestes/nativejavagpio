@@ -56,7 +56,7 @@ public class GPIOLEDSample {
                                                         true);
             pin = (GPIOPin)DeviceManager.open(GPIOPin.class, pinConfig);
             boolean pinOn = false;
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < 6; i++) {
                 Thread.sleep(2500);
                 pinOn = !pinOn;
                 pin.setValue(pinOn);
